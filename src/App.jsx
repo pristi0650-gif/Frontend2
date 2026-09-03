@@ -9,7 +9,7 @@ import Navbar from './Components/Navbar'
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Project from './pages/Project'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 
 
 
