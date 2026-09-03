@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi'
 import { Link, NavLink } from 'react-router-dom'
-import { Navlinks } from '../constants/Navbar'
+import { Navlinks } from '../Constants/Navbar'
 
 function Navbar() {
     const [open, setOpen] = useState(false)

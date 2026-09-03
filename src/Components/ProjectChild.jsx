@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Projectchild(props) {
+function ProjectChild(props) {
   return (
     <div className='flex min-h-screen items-center justify-center'>
 
@@ -17,4 +17,4 @@ function Projectchild(props) {
   )
 }
 
-export default Projectchild
+export default ProjectChild

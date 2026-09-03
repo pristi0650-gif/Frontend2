@@ -1,5 +1,5 @@
 import React from 'react'
-import Projectchild from './Projectchild'
+import ProjectChild from './ProjectChild'
 import { ProjectDatas } from '../Constants/ProjectDatas'
 
 
@@ -8,7 +8,7 @@ function ProjectParent() {
     <div className='grid sm:grid-cols-2'>
       {
         ProjectDatas.map((proj)=>(
-          <Projectchild
+          <ProjectChild
           key={proj.id}
           image={proj.img}
           name={proj.name}
